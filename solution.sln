@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCacheStorage", "MemoryCacheStorage\MemoryCacheStorage.csproj", "{3502D250-86B9-4012-AD0F-5D3BA5254D57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cryptonite", "Cryptonite\Cryptonite.csproj", "{BB1FCAEA-FF1F-4FB3-8C3E-062E3DE13AA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotJSON", "JsonUtil\DotJSON.csproj", "{1BDED092-9D49-447B-A8EC-E10A66D2C92F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Motion", "Motion\Motion.csproj", "{9475D7CD-5820-47E6-8850-5147E128B233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{9FAE2B72-C063-4F48-B967-F1B9664A8D7E}"
+	ProjectSection(SolutionItems) = preProject
+		.assets\icon.png = .assets\icon.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3502D250-86B9-4012-AD0F-5D3BA5254D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3502D250-86B9-4012-AD0F-5D3BA5254D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3502D250-86B9-4012-AD0F-5D3BA5254D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3502D250-86B9-4012-AD0F-5D3BA5254D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1FCAEA-FF1F-4FB3-8C3E-062E3DE13AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1FCAEA-FF1F-4FB3-8C3E-062E3DE13AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1FCAEA-FF1F-4FB3-8C3E-062E3DE13AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1FCAEA-FF1F-4FB3-8C3E-062E3DE13AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDED092-9D49-447B-A8EC-E10A66D2C92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDED092-9D49-447B-A8EC-E10A66D2C92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDED092-9D49-447B-A8EC-E10A66D2C92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDED092-9D49-447B-A8EC-E10A66D2C92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9475D7CD-5820-47E6-8850-5147E128B233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9475D7CD-5820-47E6-8850-5147E128B233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9475D7CD-5820-47E6-8850-5147E128B233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9475D7CD-5820-47E6-8850-5147E128B233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC949AF7-3DA7-4398-BF8C-8D4CDD7802CC}
+	EndGlobalSection
+EndGlobal

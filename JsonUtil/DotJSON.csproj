@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+		<AssemblyName>System.Text.Json.JsonUtil</AssemblyName>
+		<RootNamespace>System.Text.Json.JsonUtil</RootNamespace>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>CypherPotato.JsonUtil</Title>
+		<Authors>CypherPotato</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<IncludeSymbols>True</IncludeSymbols>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<PackageId>CypherPotato.JsonUtil</PackageId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>embedded</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>embedded</DebugType>
+	</PropertyGroup>
+
+</Project>
